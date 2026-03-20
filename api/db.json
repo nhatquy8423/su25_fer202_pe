@@ -7,7 +7,7 @@
       "price": "$2.50 / lb",
       "description": "Sweet and crunchy red apple.",
       "nutrition": "Vitamin C, Fiber",
-      "stock": 100
+      "stock": "103"
     },
     {
       "id": "2",
@@ -16,7 +16,7 @@
       "price": "$1.20 / lb",
       "description": "A ripe banana full of potassium.",
       "nutrition": "Vitamin B6, Potassium",
-      "stock": 120
+      "stock": "555"
     },
     {
       "id": "3",
@@ -134,6 +134,24 @@
       "description": "Creamy avocado rich in healthy fats.",
       "nutrition": "Monounsaturated fats, Potassium",
       "stock": 45
+    },
+    {
+      "id": "acd3",
+      "name": "Apppple",
+      "price": "5000",
+      "stock": "15",
+      "description": "ok",
+      "nutrition": "ok",
+      "image": "images/apple.jpg"
+    },
+    {
+      "id": "2f7b",
+      "name": "táo",
+      "price": "15",
+      "stock": "12",
+      "description": "okokookok",
+      "nutrition": "ngon",
+      "image": "images/apple.jpg"
     }
   ],
   "contacts": [

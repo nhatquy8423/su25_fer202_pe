@@ -8,7 +8,7 @@ const Header = () => {
           <img
             src="/images/logo.png"
             alt="logo"
-            className="mt-2"
+            className="my-2"
             style={{ height: "40px" }}
           />
         </div>
@@ -21,6 +21,9 @@ const Header = () => {
             className="text-white text-decoration-none me-5"
           >
             Contact
+          </Link>
+          <Link to={"/add"} className="text-white text-decoration-none me-5">
+            ADD
           </Link>
         </div>
       </div>

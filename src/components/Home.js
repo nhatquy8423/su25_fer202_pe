@@ -43,16 +43,23 @@
 
 // export default Home;
 
+import axios from "axios";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 const Home = () => {
   const [fruit, setFruit] = useState();
+  // useEffect(() => {
+  //   fetch("http://localhost:5001/fruits")
+  //     .then((res) => res.json())
+  //     .then((data) => setFruit(data));
+  // }, []);
   useEffect(() => {
-    fetch("http://localhost:5001/fruits")
-      .then((res) => res.json())
-      .then((data) => setFruit(data));
-  }, []);
+    axios
+      .get("http://localhost:5001/fruits")
+      .then((res) => setFruit(res.data))
+      .catch((err) => console.log(err));
+  });
   if (!fruit) return <p>Loading</p>;
   return (
     <div className="container">
@@ -69,6 +76,9 @@ const Home = () => {
                 <p>{f.description}</p>
                 <Link to={`/fruit/${f.id}`} className="btn btn-success">
                   Read More
+                </Link>
+                <Link to={`/update/${f.id}`} className="btn btn-secondary ms-3">
+                  Update
                 </Link>
               </div>
             </div>
