@@ -1,0 +1,147 @@
+{
+  "fruits": [
+    {
+      "id": "1",
+      "name": "Apple",
+      "image": "images/apple.jpg",
+      "price": "$2.50 / lb",
+      "description": "Sweet and crunchy red apple.",
+      "nutrition": "Vitamin C, Fiber",
+      "stock": 100
+    },
+    {
+      "id": "2",
+      "name": "Banana",
+      "image": "images/banana.jpg",
+      "price": "$1.20 / lb",
+      "description": "A ripe banana full of potassium.",
+      "nutrition": "Vitamin B6, Potassium",
+      "stock": 120
+    },
+    {
+      "id": "3",
+      "name": "Orange",
+      "image": "images/orange.jpg",
+      "price": "$1.80 / lb",
+      "description": "Juicy and sweet oranges for snacking.",
+      "nutrition": "Vitamin C, Potassium",
+      "stock": 90
+    },
+    {
+      "id": "4",
+      "name": "Strawberry",
+      "image": "images/strawberry.jpg",
+      "price": "$3.00 / lb",
+      "description": "Fresh, ripe strawberries full of flavor.",
+      "nutrition": "Vitamin C, Antioxidants",
+      "stock": 70
+    },
+    {
+      "id": "5",
+      "name": "Grapes",
+      "image": "images/grapes.jpg",
+      "price": "$2.80 / lb",
+      "description": "Sweet and seedless grapes.",
+      "nutrition": "Vitamin K, Antioxidants",
+      "stock": 80
+    },
+    {
+      "id": "6",
+      "name": "Watermelon",
+      "image": "images/watermelon.jpg",
+      "price": "$0.60 / lb",
+      "description": "Refreshing and juicy watermelon slices.",
+      "nutrition": "Vitamin C, Water content",
+      "stock": 50
+    },
+    {
+      "id": "7",
+      "name": "Pineapple",
+      "image": "images/pineapple.jpg",
+      "price": "$2.00 each",
+      "description": "Tropical and sweet pineapple.",
+      "nutrition": "Vitamin C, Manganese",
+      "stock": 60
+    },
+    {
+      "id": "8",
+      "name": "Cherry",
+      "image": "images/cherry.jpg",
+      "price": "$4.00 / lb",
+      "description": "Juicy and sweet cherries.",
+      "nutrition": "Vitamin C, Antioxidants",
+      "stock": 40
+    },
+    {
+      "id": "9",
+      "name": "Mango",
+      "image": "images/mango.jpg",
+      "price": "$1.50 each",
+      "description": "Tropical and juicy mangoes.",
+      "nutrition": "Vitamin A, Vitamin C",
+      "stock": 65
+    },
+    {
+      "id": "10",
+      "name": "Blueberry",
+      "image": "images/blueberry.jpg",
+      "price": "$5.50 / lb",
+      "description": "Fresh, plump blueberries.",
+      "nutrition": "Vitamin C, Antioxidants",
+      "stock": 50
+    },
+    {
+      "id": "11",
+      "name": "Kiwi",
+      "image": "images/kiwi.jpg",
+      "price": "$3.20 / lb",
+      "description": "Tangy and juicy green kiwi.",
+      "nutrition": "Vitamin C, Vitamin K",
+      "stock": 55
+    },
+    {
+      "id": "12",
+      "name": "Peach",
+      "image": "images/peach.jpg",
+      "price": "$2.20 / lb",
+      "description": "Sweet and succulent peaches.",
+      "nutrition": "Vitamin A, Vitamin E",
+      "stock": 75
+    },
+    {
+      "id": "13",
+      "name": "Pear",
+      "image": "images/pear.jpg",
+      "price": "$2.00 / lb",
+      "description": "Crisp and juicy pears.",
+      "nutrition": "Vitamin C, Fiber",
+      "stock": 85
+    },
+    {
+      "id": "14",
+      "name": "Papaya",
+      "image": "images/papaya.jpg",
+      "price": "$1.80 each",
+      "description": "Tropical fruit with a sweet flavor.",
+      "nutrition": "Vitamin C, Folate",
+      "stock": 30
+    },
+    {
+      "id": "15",
+      "name": "Avocado",
+      "image": "images/avocado.jpg",
+      "price": "$3.00 each",
+      "description": "Creamy avocado rich in healthy fats.",
+      "nutrition": "Monounsaturated fats, Potassium",
+      "stock": 45
+    }
+  ],
+  "contacts": [
+    {
+      "id": "bc5d",
+      "name": "qqq",
+      "username": "qqq",
+      "email": "q@"
+    }
+  ]
+}
