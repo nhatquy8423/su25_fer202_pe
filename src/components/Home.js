@@ -44,6 +44,7 @@
 // export default Home;
 
 import axios from "axios";
+import { Button } from "react-bootstrap";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
@@ -60,6 +61,18 @@ const Home = () => {
       .then((res) => setFruit(res.data))
       .catch((err) => console.log(err));
   });
+  const handleSubmit = (id) => {
+    const conf = window.confirm("Do you want to delete?");
+    if (conf) {
+      axios
+        .delete(`http://localhost:5001/fruits/${id}`)
+        .then((res) => {
+          alert("Delete successfully!");
+          setFruit((prevList) => prevList.filter((f) => f.id !== id));
+        })
+        .catch((err) => console.log(err));
+    }
+  };
   if (!fruit) return <p>Loading</p>;
   return (
     <div className="container">
@@ -77,9 +90,15 @@ const Home = () => {
                 <Link to={`/fruit/${f.id}`} className="btn btn-success">
                   Read More
                 </Link>
-                <Link to={`/update/${f.id}`} className="btn btn-secondary ms-3">
+                <Link to={`/update/${f.id}`} className="btn btn-secondary ms-2">
                   Update
                 </Link>
+                <Button
+                  className="btn btn-danger ms-2"
+                  onClick={() => handleSubmit(f.id)}
+                >
+                  Delete
+                </Button>
               </div>
             </div>
           </div>

@@ -143,15 +143,6 @@
       "description": "ok",
       "nutrition": "ok",
       "image": "images/apple.jpg"
-    },
-    {
-      "id": "2f7b",
-      "name": "táo",
-      "price": "15",
-      "stock": "12",
-      "description": "okokookok",
-      "nutrition": "ngon",
-      "image": "images/apple.jpg"
     }
   ],
   "contacts": [
